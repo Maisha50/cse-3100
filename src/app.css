@@ -1,0 +1,21 @@
+.header-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; /* Space between the main sections */
+    align-items: center; /* Align items vertically in the center */
+}
+
+.input-container {
+    display: flex; /* Set flex layout for the input container */
+    flex-direction: row; /* Align elements in a row */
+    align-items: center; /* Center items vertically */
+    gap: 10px; /* Add spacing between elements */
+}
+
+.search-bar {
+    max-width: 200px;
+    height: auto;
+    margin: 10px;
+    padding: 6px;
+    border-radius: 15px;
+}
